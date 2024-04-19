@@ -1,0 +1,345 @@
+/* Reset */
+@import url("reset.css");
+/* Fonts */
+@import url("../fonts/Kollektif.woff");
+@import url("../fonts/Lena.woff");
+
+.wrapper {
+	min-height: 100%;
+	height: 4889px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	background: #fff;
+}
+
+.header {
+	position: absolute;
+	top: 94px;
+	left: 0;
+	width: 100%;
+	background-color: #e093a0;
+	min-height: 600px;
+}
+.header__container {
+}
+.header__body {
+	display: flex;
+	justify-content: space-between;
+}
+.header__logo {
+}
+.header__logo img {
+	position: absolute;
+	top: -70px;
+	left: 65px;
+	padding-bottom: 21px;
+}
+.header__burger {
+}
+.header__menu {
+	gap: 382px;
+}
+.header__list {
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	gap: 89px;
+	top: -55px;
+	left: 400px;
+}
+
+.header__list li:hover {
+	text-decoration: underline;
+}
+.header__link {
+}
+.content {
+}
+.content__img {
+	display: flex;
+	position: absolute;
+	z-index: 3;
+	top: 60px;
+}
+.content__head {
+	display: block;
+}
+.content__head h1{
+	display: flex;
+	position: absolute;
+	top: 300px;
+	left: 780px;
+}
+.content__text {
+}
+.content__text p{
+	position: absolute;
+  height: 120px;
+	width: 389px;
+	top: 380px;
+	left: 750px;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 60px;
+	display: block;
+	max-width: 30%;
+}
+.content__button {
+}
+.content__button span{
+	display: block;
+	position: absolute;
+	top: 550px;
+	left: 780px;
+	font-size: 20px;
+	border: solid;
+	border-width: 1px;
+	padding: 5px 30px 5px 30px;
+}
+.content__buttom {
+	position: absolute;
+	z-index: 4;
+	display: block;
+	top: 685px;
+	padding-left: 1px;
+}
+.content__buttom p{
+	word-spacing: 48;
+	color: #fff;
+	justify-content: center;
+	padding-left: 150px;
+}
+.content__block {
+	display: block;
+	position: absolute;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 100%);
+  border: 1px solid #808080;
+	left: 1px;
+  top: 675px;
+  width: 450px;
+  height: 40px;
+	background-blend-mode: normal;
+}
+
+/* ------------------------------------------------- */
+
+.center__page {
+}
+.title__lotus {
+	position: absolute;
+  left: 150px;
+  top: 800px;
+  width: 186px;
+  height: 36px;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.text__lotus {
+	position: absolute;
+  left: 150px;
+  top: 850px;
+  width: 421px;
+  height: 36px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.img1 {
+	position: absolute;
+	left: 500px;
+  top: 700px;
+  width: 100px;
+  height: 100px;
+}
+.img1 img{
+	position: absolute;
+  left: 200px;
+  top: 0;
+  width: 350px;
+  height: 350px;
+}
+.title__blueberry {
+	position: absolute;
+  left: 700px;
+  top: 1200px;
+  width: 245px;
+  height: 36px;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.text__blueberry {
+	position: absolute;
+  left: 700px;
+  top: 1250px;
+  width: 473px;
+  height: 36px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.img2 {
+	position: absolute;
+	left: 110px;
+  top: 10px;
+  width: 100px;
+  height: 100px;
+}
+.img2 img{
+	position: absolute;
+  left: 0px;
+  top: 1070px;
+  width: 350px;
+  height: 350px;
+}
+.title__chocolatechip {
+	position: absolute;
+  left: 150px;
+  top: 1600px;
+  width: 325px;
+  height: 36px;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.text__chocolatechip {
+	position: absolute;
+  left: 150px;
+  top: 1650px;
+  width: 421px;
+  height: 36px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.img3 {
+	position: absolute;
+	left: 500px;
+  top: 1000px;
+  width: 100px;
+  height: 100px;
+}
+.img3 img{
+	position: absolute;
+  left: 200px;
+  top: 475px;
+  width: 350px;
+  height: 350px;
+}
+.title__raspberry {
+	position: absolute;
+  left: 700px;
+  top: 1950px;
+  width: 235px;
+  height: 36px;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.text__raspberry {
+	position: absolute;
+  left: 700px;
+  top: 2000px;
+  width: 421px;
+  height: 36px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.img4 {
+	position: absolute;
+	left: 110px;
+  top: 1000px;
+  width: 350px;
+  height: 350px;
+}
+.img4 img{
+	position: absolute;
+  left: 0px;
+  top: 850px;
+  width: 350px;
+  height: 350px;
+}
+.title__chocolate {
+	position: absolute;
+  left: 150px;
+  top: 2340px;
+  width: 325px;
+  height: 36px;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.text__chocolate {
+	position: absolute;
+  left: 150px;
+  top: 2390px;
+  width: 421px;
+  height: 36px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.img5 {
+	position: absolute;
+  left: 500px;
+  top: 1820px;
+  width: 375px;
+  height: 350px;
+}
+.img5 img{
+	position: absolute;
+  left: 200px;
+  top: 400px;
+  width: 350px;
+  height: 350px;
+}
+.title__pistachio {
+	position: absolute;
+  left: 700px;
+  top: 2690px;
+  width: 237px;
+  height: 36px;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.text__pistachio {
+	position: absolute;
+  left: 700px;
+  top: 2740px;
+  width: 421px;
+  height: 36px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.img6 {
+	position: absolute;
+	left: 110px;
+  top: 1600px;
+  width: 350px;
+  height: 350px;
+}
+.img6 img{
+	position: absolute;
+  left: 0px;
+  top: 990px;
+  width: 350px;
+  height: 350px;
+}
